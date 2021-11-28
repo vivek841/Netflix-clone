@@ -1,0 +1,35 @@
+/* Basic css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'muli', sans-serif;
+  }
+  
+  .header-section {
+    background-image: url('/img/hero-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid #222222;
+  }
+  
+  .custom-container {
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .header-section .custom-container .row .main-logo {
+      width: 130px;
+  }
+  .header-section .custom-container .row .signup {
+    text-align: right;
+  }
+  
+  .header-section .custom-container .row .signup a {
+    background-color: #e50914;
+  }
